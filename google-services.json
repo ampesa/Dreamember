@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "180180903959",
+    "firebase_url": "https://quicktradeaps.firebaseio.com",
+    "project_id": "quicktradeaps",
+    "storage_bucket": "quicktradeaps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180180903959:android:1de4162149d89aa0",
+        "android_client_info": {
+          "package_name": "com.apps.apene.bioclock_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180180903959-qtutoarph839oo8gov2l86pir5prhgo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdhSlpr8ef2A_MAh6ykGBwVqjJhQNWDfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180180903959-qtutoarph839oo8gov2l86pir5prhgo8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180180903959:android:090ac9495e192e46",
+        "android_client_info": {
+          "package_name": "com.apps.apene.quicktrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180180903959-6ol5gt9srkq9395eihkdkme4f8oou1hd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.apene.quicktrade",
+            "certificate_hash": "5e6150ee5b26061312bd6cbba938423734e3ccc1"
+          }
+        },
+        {
+          "client_id": "180180903959-qtutoarph839oo8gov2l86pir5prhgo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdhSlpr8ef2A_MAh6ykGBwVqjJhQNWDfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180180903959-qtutoarph839oo8gov2l86pir5prhgo8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

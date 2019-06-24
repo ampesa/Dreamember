@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_tips_tip_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/tv_tip_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_tips"
+        android:layout_below="@id/tv_tips_tip_title">
+
+        <ImageView
+            android:id="@+id/iv_tips_tip_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/tv_tip_content"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="15dp"
+            android:src="@mipmap/dreamember_sleep1" />
+
+        <TextView
+            android:id="@+id/tv_tips_tip_preview"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:text="@string/tv_tips_tip_content"
+            android:layout_below="@+id/iv_tips_tip_image"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
